@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".TeamPlayersDetails">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/recyclerview"
+            android:lineSpacingExtra="@dimen/material_emphasis_medium"
+            tools:ignore="MissingConstraints"
+            tools:itemCount="5"
+            tools:listitem="@layout/player_row_layout"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tvNoData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/nunitosans_regular"
+            android:text="No data"
+            android:gravity="center_horizontal"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

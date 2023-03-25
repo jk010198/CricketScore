@@ -1,0 +1,26 @@
+package com.interactive.sportz.models
+
+data class Players(
+    val `3852`: Player,
+    val `3722`: Player,
+    val `66818`: Player,
+    val `4176`: Player,
+    val `3632`: Player,
+    val `4532`: Player,
+    val `63751`: Player,
+    val `63187`: Player,
+    val `9844`: Player,
+    val `5132`: Player,
+    val `65867`: Player,
+    val `4964`: Player,
+    val `57594`: Player,
+    val `4330`: Player,
+    val `3752`: Player,
+    val `10167`: Player,
+    val `10172`: Player,
+    val `57903`: Player,
+    val `11703`: Player,
+    val `11706`: Player,
+    val `60544`: Player,
+    val `4338`: Player,
+)

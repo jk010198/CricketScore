@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/allPlayers"
+        android:title="All Players"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/teamFirst"
+        android:title="First"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/teamSecond"
+        android:title="Second"
+        app:showAsAction="never" />
+</menu>
